@@ -74,6 +74,8 @@ class _CompleteFormState extends State<CompleteForm> {
                 child: Column(
                   children: <Widget>[
                     const SizedBox(height: 15),
+                    FormBuilderImagePicker(),
+                    const SizedBox(height: 15),
                     FormBuilderDateTimePicker(
                       name: 'date',
                       initialEntryMode: DatePickerEntryMode.calendar,
